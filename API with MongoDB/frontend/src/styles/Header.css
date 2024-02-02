@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700;1,900&family=Rubik+Scribble&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img{
+    width:2rem;
+    height: auto;
+    transition: width 1s;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img:hover{
+    width: 2.5rem;
+    cursor: pointer;
+
+}
+
+nav,
+.nav-links,
+.soc-media{
+    display: flex;
+}
+
+nav{
+    /* width: 96vw; */
+    height: 15vh;
+    margin: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #006666, #00cccc);    
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links .active- {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    margin-top: 1rem;
+}
+.nav-links{
+    list-style: none;
+    gap: 28px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    font-weight: bold;
+    color: #E9E3E1;
+    text-decoration: underline  #E9E3E1;
+    text-underline-offset: 0.7rem;
+}
